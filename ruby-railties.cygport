@@ -1,0 +1,9 @@
+inherit rubygem
+
+NAME="ruby-railties"
+VERSION=3.2.11
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby on Rails internals"
+DESCRIPTION="Rails internals: application bootup, plugins, generators, and Rake
+tasks."
