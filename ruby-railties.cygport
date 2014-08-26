@@ -1,9 +1,15 @@
 inherit rubygem
 
 NAME="ruby-railties"
-VERSION=3.2.14
+VERSION=4.0.9
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby on Rails internals"
 DESCRIPTION="Rails internals: application bootup, plugins, generators, and Rake
 tasks."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_railties_CONTENTS="usr/bin/rails ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_railties_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
