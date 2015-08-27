@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-railties"
-VERSION=4.2.3
+VERSION=4.2.4
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby on Rails internals"
